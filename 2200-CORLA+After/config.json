@@ -1,0 +1,56 @@
+{
+  "name": "2200-CORLA+After",
+  "tileSize": 256,
+  "lods": [
+    {
+      "level": 0,
+      "gridSize": 32,
+      "pattern": "0/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 1,
+      "gridSize": 16,
+      "pattern": "1/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 2,
+      "gridSize": 8,
+      "pattern": "2/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 3,
+      "gridSize": 4,
+      "pattern": "3/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 4,
+      "gridSize": 2,
+      "pattern": "4/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 5,
+      "gridSize": 1,
+      "pattern": "5/split_{index}",
+      "imageSize": 256
+    }
+  ],
+  "overlays": [
+    {
+      "map": "2110-COSTT_After",
+      "offsetX": 6083.5,
+      "offsetY": 1737.1,
+      "scale": 0.4365
+    },
+    {
+      "map": "2260-CORLV",
+      "offsetX": 2007.7,
+      "offsetY": 3920.7,
+      "scale": 0.1187
+    }
+  ]
+}

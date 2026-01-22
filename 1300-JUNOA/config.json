@@ -1,0 +1,56 @@
+{
+  "name": "1300-JUNOA",
+  "tileSize": 256,
+  "lods": [
+    {
+      "level": 0,
+      "gridSize": 32,
+      "pattern": "0/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 1,
+      "gridSize": 16,
+      "pattern": "1/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 2,
+      "gridSize": 8,
+      "pattern": "2/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 3,
+      "gridSize": 4,
+      "pattern": "3/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 4,
+      "gridSize": 2,
+      "pattern": "4/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 5,
+      "gridSize": 1,
+      "pattern": "5/split_{index}",
+      "imageSize": 256
+    }
+  ],
+  "overlays": [
+    {
+      "map": "1350-JNONT",
+      "offsetX": 373,
+      "offsetY": 1734,
+      "scale": 0.758
+    },
+    {
+      "map": "1320-JUNOS",
+      "offsetX": 6914,
+      "offsetY": 4768,
+      "scale": 0.118
+    }
+  ]
+}

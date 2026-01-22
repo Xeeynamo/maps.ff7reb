@@ -1,0 +1,36 @@
+{
+  "name": "2510-CSMOC",
+  "tileSize": 256,
+  "lods": [
+    {
+      "level": 0,
+      "gridSize": 16,
+      "pattern": "0/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 1,
+      "gridSize": 8,
+      "pattern": "1/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 2,
+      "gridSize": 4,
+      "pattern": "2/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 3,
+      "gridSize": 2,
+      "pattern": "3/split_{index}",
+      "imageSize": 256
+    },
+    {
+      "level": 4,
+      "gridSize": 1,
+      "pattern": "4/split_{index}",
+      "imageSize": 256
+    }
+  ]
+}
